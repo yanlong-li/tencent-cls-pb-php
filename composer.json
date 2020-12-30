@@ -1,0 +1,46 @@
+{
+  "name": "yanlong-li/tencent-cls-pb",
+  "keywords": [
+    "cls",
+    "log",
+    "pb",
+    "tencent-cloud",
+    "cloud",
+    "service",
+    "tencent",
+    "sign",
+    "腾讯云",
+    "<LogGroupList 的 PB 格式打包内容>"
+  ],
+  "description": "腾讯云日志服务,tencent-cloud cls,cloud log service,基于PHP语言的可用的CLS结构化日志PB日志生成。<LogGroupList 的 PB 格式打包内容>,只包含结构化日志的生成，不包含完整的cls服务功能。附加签名代码。",
+  "authors": [
+    {
+      "name": "Yanlongli",
+      "email": "ahlyl94@gmail.com",
+      "homepage": "https://www.yanlongli.com",
+      "role": "developer"
+    }
+  ],
+  "version": "1.0.0",
+  "type": "library",
+  "homepage": "https://cloud.tencent.com/document/product/614/16873",
+  "time": "2020-12-30",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "support": {
+    "email": "ahlyl94@gmail.com",
+    "issues": "https://github.com/yanlong-li/tencent-cls-pb-php/issues",
+    "wiki": "https://github.com/yanlong-li/tencent-cls-pb-php/wiki"
+  },
+  "require": {
+    "php": ">=5.5.0",
+    "google/protobuf": "^3.14"
+  },
+  "autoload": {
+    "psr-4": {
+      "Cls\\": "src/Cls/",
+      "GPBMetadata\\": "src/GPBMetadata/",
+      "yanlongli\\TencentClsSign\\": "src/sign"
+    }
+  }
+}
