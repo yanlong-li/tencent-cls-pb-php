@@ -10,9 +10,9 @@
     "tencent",
     "sign",
     "腾讯云",
-    "<LogGroupList 的 PB 格式打包内容>"
+    "LogGroupList 的 PB 格式打包内容"
   ],
-  "description": "腾讯云日志服务,tencent-cloud cls,cloud log service,基于PHP语言的可用的CLS结构化日志PB日志生成。<LogGroupList 的 PB 格式打包内容>,只包含结构化日志的生成，不包含完整的cls服务功能。附加签名代码。",
+  "description": "腾讯云日志服务,tencent-cloud cls,cloud log service,基于PHP语言的可用的CLS结构化日志PB日志生成。LogGroupList 的 PB 格式打包内容,只包含结构化日志的生成，不包含完整的cls服务功能。附加签名代码。",
   "authors": [
     {
       "name": "Yanlongli",
@@ -21,7 +21,7 @@
       "role": "developer"
     }
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "library",
   "homepage": "https://cloud.tencent.com/document/product/614/16873",
   "time": "2020-12-30",
